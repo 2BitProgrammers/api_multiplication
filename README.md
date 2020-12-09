@@ -4,10 +4,10 @@ This is a simple API example which multiplies two values (a and b).  It is meant
 
 The API listens on port:  1234
 
-**<u>API Enpoints</u>**:
+API Endpoints:
 * **/status** (GET) - this states whether the app is up and healthy
 * **/multiply** (POST) - this returns the results of multiplying the provided variables. This requires a json body to be included with the request.
-  * <u>Example JSON Body:</u>   _{ "a": 11, "b": 22 }_
+  * Example JSON Body:   _{ "a": 11, "b": 22 }_
 
 ## Run as Standalone GoLang App
 This will run the application with the go application.  It assumes that you have installed your goLang environment correctly.
